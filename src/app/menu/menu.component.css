@@ -1,0 +1,16 @@
+:host ul {
+	display: block;
+	padding-left: 0px;
+}
+
+:host ul li {
+	display: inline-block;
+}
+
+:host ul li:after {
+	content: '/';
+}
+
+:host ul li:last-child:after {
+	content: '';
+}
