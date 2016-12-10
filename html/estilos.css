@@ -1,0 +1,36 @@
+header, .filtro, .bucleArticulos, footer{
+    background: #ccc;
+    border: 2px solid #999;
+    padding: 10px;
+}
+
+nav{float: left;}
+.pure-menu-item{height: auto;}
+.pure-table{width: 100%;}
+
+
+
+.navOffline, .navUsuario{float: right;}
+
+
+.navUsuario{display: none;}
+
+
+
+.filtro{width: 100%;}
+
+.filtro ul{
+    display: inline;
+    width: 100%;
+}
+
+.filtro ul li{
+    float: left;
+    list-style: none;
+    margin-right:10px; 
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
