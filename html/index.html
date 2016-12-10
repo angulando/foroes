@@ -1,0 +1,91 @@
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/pure-min.css">
+		<link rel="stylesheet" href="./estilos.css">
+        <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+	</head>
+
+	<body>
+        
+        <header>
+            <div class="pure-menu pure-menu-horizontal ">
+                <a href="#" class="pure-menu-heading pure-menu-link">Angulando</a>
+                <nav id="nav_usuario" class="navUsuario">
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">
+                            <a href="#" class="pure-menu-link">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav id="nav_offline" class="navOffline">
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Registro</a></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Login</a></li>
+                    </ul>
+                </nav>
+            </div>            
+        </header>
+        
+		
+	    	
+		<section id="contenedor" class="">
+
+            <div id="filtro" class="filtro">
+                <ul>
+                    <li>
+                        <select>
+                            <option value="">Todas las categorías</option>
+                            <option value="">Cat 1</option>
+                            <option value="">Cat 2</option>
+                            <option value="">Cat 3</option>
+                        </select>
+                    </li>
+                    <li><input type="radio"> Últimas</li>
+                    <li><input type="radio" checked> Top</li>
+                    <li><a href="#">Listado categorias</a></li>
+                </ul>
+            </div>
+
+            <section id="bucle_articulos" class="bucleArticulos">
+                <table class="pure-table">
+                    <thead>
+                        <tr>
+                            <th>Tema</th>
+                            <th>Categoria</th>
+                            <th>Usuarios</th>
+                            <th>Respuesta</th>
+                            <th>Visitas</th>
+                            <th>Actividad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Título del tema</td>
+                            <td>Angular</td>
+                            <td>Juanito - Pepito - Menganito</td>
+                            <td>12</td>
+                            <td>24</td>
+                            <td>2h</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </section>
+
+		<footer id="" class="">
+			Esto es el footer
+		</footer>
+		
+		
+		<script src="./js/jquery-3.1.1.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
