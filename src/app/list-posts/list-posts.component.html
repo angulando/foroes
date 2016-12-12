@@ -13,7 +13,9 @@
 		<tr *ngFor="let itm of items">
 			<td>{{ itm.titulo }}</td>
 			<td>{{ itm.categoria }}</td>
-			<td>{{ itm.usuarios }}</td>
+			<td>
+				<a *ngFor="let usr of itm.usuarios" href="#" [class]="usr.icono" title="{{ usr.nombre }}"></a>
+			</td>
 			<td>{{ itm.respuestas }}</td>
 			<td>{{ itm.vistas }}</td>
 			<td>{{ itm.actividad | amTimeAgo }}</td>

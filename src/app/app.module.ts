@@ -37,3 +37,5 @@ import { AppRoutes } from './app.routes';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+moment.locale('es');
