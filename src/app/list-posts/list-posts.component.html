@@ -1,3 +1,24 @@
-<p>
-  list-posts works!
-</p>
+<table class="pure-table">
+	<thead>
+		<tr>
+			<th>Tema</th>
+			<th>Categoria</th>
+			<th>Usuarios</th>
+			<th>Respuesta</th>
+			<th>Visitas</th>
+			<th>Actividad</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="let itm of items">
+			<td>{{ itm.titulo }}</td>
+			<td>{{ itm.categoria }}</td>
+			<td>
+				<a *ngFor="let usr of itm.usuarios" href="#" [class]="usr.icono" title="{{ usr.nombre }}"></a>
+			</td>
+			<td>{{ itm.respuestas }}</td>
+			<td>{{ itm.vistas }}</td>
+			<td>{{ itm.actividad | amTimeAgo }}</td>
+		</tr>
+	</tbody>
+</table>

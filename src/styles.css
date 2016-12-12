@@ -1,1 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
+.avatar  {
+	display: inline-block;
+	background-image: url("avatars.jpg");
+	width: 42px;
+	height: 42px;
+}
+
+.avatar.a1 {
+	background-position-x: -9px;
+	background-position-y: -9px;
+}
+
+.avatar.a2 {
+	background-position-x: -51px;
+	background-position-y: -9px;
+}
+
+.avatar.a3 {
+	background-position-x: -95px;
+	background-position-y: -9px;
+}
+
+.avatar.a4 {
+	background-position-x: -139px;
+	background-position-y: -9px;
+}
+
+.avatar.a5 {
+	background-position-x: -9px;
+	background-position-y: -51px;
+}
+
+.avatar.a6 {
+	background-position-x: -51px;
+	background-position-y: -51px;
+}
+
+.avatar.a7 {
+	background-position-x: -95px;
+	background-position-y: -51px;
+}
+
+.avatar.a8 {
+	background-position-x: -139px;
+	background-position-y: -51px;
+}
+
+.avatar.a9 {
+	background-position-x: -9px;
+	background-position-y: -95px;
+}
+
+.avatar.a10 {
+	background-position-x: -51px;
+	background-position-y: -95px;
+}
+
+.avatar.a11 {
+	background-position-x: -95px;
+	background-position-y: -95px;
+}
+
+.avatar.a12 {
+	background-position-x: -139px;
+	background-position-y: -95px;
+}
+
+.avatar.a13 {
+	background-position-x: -9px;
+	background-position-y: -139px;
+}
+
+.avatar.a14 {
+	background-position-x: -51px;
+	background-position-y: -139px;
+}
+
+.avatar.a15 {
+	background-position-x: -95px;
+	background-position-y: -139px;
+}
+
+.avatar.a16 {
+	background-position-x: -139px;
+	background-position-y: -139px;
+}

@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { PostsService } from './posts.service'
 
 @Component({
   selector: 'app-list-posts',
   templateUrl: './list-posts.component.html',
   styleUrls: ['./list-posts.component.css']
 })
-export class ListPostsComponent implements OnInit {
+export class ListPostsComponent {
+	private items: any[] = [];
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor(service: PostsService) { 
+  	service.getPosts().subscribe(data => this.items = data);
   }
 
 }
