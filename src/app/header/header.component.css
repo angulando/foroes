@@ -1,7 +1,22 @@
-:host {
-	display: block;
+header {
+    background: #ccc;
+    border: 2px solid #999;
+    padding: 10px;
 }
 
-:host h2 {
-  font-size: 18px;
+nav {
+  float: left;
 }
+
+.pure-menu-item {
+  height: auto;
+}
+
+.navOffline, .navUsuario {
+  float: right;
+}
+
+.navUsuario {
+  display: none;
+}
+
