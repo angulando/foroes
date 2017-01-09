@@ -9,6 +9,7 @@ import { MomentModule } from 'angular2-moment';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { HeaderService } from './header/header.service';
 import { MenuComponent } from './menu/menu.component';
 import { PostComponent } from './post/post.component';
 import { ListPostsComponent } from './list-posts/list-posts.component';
@@ -33,7 +34,10 @@ import { AppRoutes } from './app.routes';
     MomentModule,
     AppRoutes
   ],
-  providers: [ PostsService ],
+  providers: [ 
+    PostsService,
+    HeaderService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
