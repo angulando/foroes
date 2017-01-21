@@ -18,7 +18,7 @@ export class HeaderService {
 		return new Observable<any[]>((obs: Observer<any[]>) => {
 			let data: any[] = [];
 
-            data = ['Historial', 'LogOut'];
+            data = ['historial', 'logOut'];
 			obs.next(data);
 			obs.complete();
 

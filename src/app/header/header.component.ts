@@ -22,7 +22,7 @@ export class HeaderComponent implements OnInit {
 	  	this.service.getLoguedItems()
   			.subscribe(data => this.headers = data);  		
   	}
-  	else if (header == "LogOut"){
+  	else if (header == "logOut"){
   		this.service.getHeader()
   			.subscribe(data => { console.log("header", data);this.headers = data });		
   	}
