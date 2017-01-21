@@ -6,6 +6,7 @@ header {
 
 nav {
   float: left;
+  margin-bottom: 0;
 }
 
 .pure-menu-item {
@@ -16,7 +17,5 @@ nav {
   float: right;
 }
 
-.navUsuario {
-  display: none;
-}
+ul{list-style: none;}
 
