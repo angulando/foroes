@@ -10,11 +10,22 @@ export class HeaderComponent implements OnInit {
 
   private headers: any[] = [];
 
-  constructor(service: HeaderService) {
+  constructor(private service: HeaderService) {
     service.getHeader().subscribe(data => { console.log("header", data);this.headers = data });
   }
 
   ngOnInit() {
+  }
+
+  clickItem(header: string) {
+  	if (header == "login") {
+	  	this.service.getLoguedItems()
+  			.subscribe(data => this.headers = data);  		
+  	}
+  	else if (header == "LogOut"){
+  		this.service.getHeader()
+  			.subscribe(data => { console.log("header", data);this.headers = data });		
+  	}
   }
 
 }

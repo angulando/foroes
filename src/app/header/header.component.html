@@ -13,7 +13,7 @@
 
 		<nav class="navOffline">
 			<ul class="pure-menu-list" *ngFor="let header of headers">
-				<li class="pure-menu-item"><a href="#" class="pure-menu-link">{{ header | uppercase }}</a></li>
+				<li class="pure-menu-item"><a href="#" class="pure-menu-link" (click)="clickItem(header)">{{ header | uppercase }}</a></li>
 			</ul>
 		</nav>
 	</div>
