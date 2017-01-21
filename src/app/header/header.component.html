@@ -1,19 +1,11 @@
-<header>
-	<div class="pure-menu pure-menu-horizontal ">
-		<a href="#" class="pure-menu-heading pure-menu-link">Angulando</a>
-		<nav class="navUsuario">
-			<ul class="pure-menu-list">
-				<li class="pure-menu-item">
-					<a href="#" class="pure-menu-link">
-						<i class="fa fa-bars" aria-hidden="true"></i>
-					</a>
-				</li>
-			</ul>
-		</nav>
 
-		<nav class="navOffline">
-			<ul class="pure-menu-list" *ngFor="let header of headers">
-				<li class="pure-menu-item"><a href="#" class="pure-menu-link" (click)="clickItem(header)">{{ header | uppercase }}</a></li>
+<header class="col-xs-12">
+	<div class="">
+		<a href="#" class="">Angulando</a>
+		
+		<nav class="navbar navOffline">
+			<ul class="navbar-nav" *ngFor="let header of headers">
+				<li class=""><a href="#" class="btn btn-default" (click)="clickItem(header)">{{ header | uppercase }}</a></li>
 			</ul>
 		</nav>
 	</div>
