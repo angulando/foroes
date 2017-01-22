@@ -1,11 +1,16 @@
-
 <header class="col-xs-12">
-	<div class="">
-		<a href="#" class="">Angulando</a>
-		
+	<div>
+		<a href="#" id="logo">Angulando</a>
+
 		<nav class="navbar navOffline">
 			<ul class="navbar-nav" *ngFor="let header of headers">
-				<li class=""><a href="#" class="btn btn-default" (click)="clickItem(header)">{{ header | uppercase }}</a></li>
+				<li>
+					<a href="#" (click)="clickItem(header)">
+						<button type="button" class="btn btn-default">
+							{{ header | uppercase }}
+						</button>
+					</a>
+				</li>
 			</ul>
 		</nav>
 	</div>

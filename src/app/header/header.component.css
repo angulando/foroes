@@ -1,7 +1,7 @@
 header {
-    background: #ccc;
-    border: 2px solid #999;
-    padding: 10px;
+  background: #ccc;
+  border: 2px solid #999;
+  padding-top: 10px;
 }
 
 nav {
@@ -9,13 +9,15 @@ nav {
   margin-bottom: 0;
 }
 
-.pure-menu-item {
-  height: auto;
-}
-
 .navOffline, .navUsuario {
   float: right;
 }
 
-ul{list-style: none;}
+ul {
+  list-style: none;
+}
+
+#logo {
+  font-size:1.5em;
+}
 
