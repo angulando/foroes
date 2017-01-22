@@ -1,3 +1,115 @@
-<p>
-  post works!
-</p>
+<section class="post col-sm-12">
+    <article class="col-sm-9"> 
+        <!--{img_destacada}-->
+        <h1 class="titulo">Angular Material Beta Release, New Flex-Layout library</h1>
+        <div class="cuerpo">
+            <p>
+              We're sneaking in a little holiday gift at the end of the year: two new beta releases for developers to try out with the latest version of Angular.
+            </p>
+            <img src="https://2.bp.blogspot.com/-rp36uIW7qBQ/WFrygcXojxI/AAAAAAAAHWA/AsrjgZoBjuEQYGOuaAxAJpizK3aEMu9ogCLcB/s1600/Pasted%2Bimage%2Bat%2B2016_12_20%2B11_22%2BPM.png" alt="">
+            <p>In March, we gave you a first preview of the new Angular Material components. Today's beta release of @angular/material includes 22 UI components written for the latest Angular: button, button‑toggle, card‑list, chips, checkbox, dialog, grid‑list, icon, input, menu, progress‑bar, progress‑spinner, radio‑button, select, sidenav, slide‑toggle, slider, snackbar, textarea, toolbar, and tooltip. It also provides support for accessibility, custom themes, and RTL text.  For documentation and examples, see material.angular.io.
+            </p>
+
+            <p>Also out in beta today, the new @angular/flex-layout package is a general-purpose flex-based layout library for use in any Angular application later than version 2.4. It provides a responsive engine and API to easily define how UI layouts should update as viewport sizes change with orientation across different display devices. The HTML API makes it trivial to quickly arrange (and auto-resize) web page component layouts. In Angular 1.x, layout tools were included as part of Angular Material. With flex-layout, we have made layout a standalone library, decoupled from the UI components. Learn more about the flex-layout beta here.
+            </p>
+
+            <p>Whether you're building a new app, or upgrading from a legacy Angular 1.x app that needs Layout and Angular Material APIs, these components will help you to quickly build a beautiful and performant UI consistent with Google's Material Design spec.
+            What does beta mean?<p>
+            <p>We've built all of the core UI components that most applications will need. Start using these libraries, and give us feedback on GitHub.</p> 
+
+            <p>We don’t plan to make any large API changes before exiting beta, however we’ll make changes based on feedback we receive during the beta process.</p>
+            <h3>What's still in the works?</h3>
+            <p>For Angular Material, developers can expect other advanced components (e.g. data-table, date-picker), and typography support. Both libraries will see ongoing bug fixes and feature improvements. 
+              For users on Angular Material 1.x, a new release is expected in early 2017 with bug fixes and security improvements.
+            </p>
+            <a href="http://angularjs.blogspot.com.es/2016/12/angular-material-beta-release-new-flex.html">Enlace artículo original</a>
+        </div>
+    </article>
+    <ul class="datosPost col-sm-3">
+        <li class="usuario">
+            <img class="avatar media-object" src="http://ogcmeet.org/img/speakers/mysteryman-300x300.png" alt="..."> 
+            <span>Usuario</span> 
+        </li>
+        <li class="fecha"><i class="fa fa-calendar-o" aria-hidden="true"></i> 00-00-0000</li>
+        <li class=""><i class="fa fa-thumbs-up" aria-hidden="true"></i> 0</li>
+        <li class=""><i class="fa fa-comment-o" aria-hidden="true"></i> 5</li>
+        <li class=""><i class="fa fa-eye" aria-hidden="true"></i> 15</li>
+        <li class=""><i class="fa fa-list" aria-hidden="true"></i> Categoria</li>
+        <li class=""><i class="fa fa-tags" aria-hidden="true"></i> Tag1 - Tag 2 - Tag 3</li>
+    </ul>
+</section>
+<div class="col-sm-12 background-rojo">
+<section class="col-sm-8 comentarios">
+    <form class="form-comentario">
+        <div class="btn-group">        
+            <button type="button" class="btn btn-default" aria-label="Negrita">
+                <i class="fa fa-bold" aria-hidden="true"></i>
+            </button>
+            <button type="button" class="btn btn-default" aria-label="Italica">
+                <i class="fa fa-italic" aria-hidden="true"></i>
+            </button>         
+            <button type="button" class="btn btn-default" aria-label="Subrayada">
+                <i class="fa fa-underline" aria-hidden="true"></i>
+            </button>
+            <button type="button" class="btn btn-default" aria-label="Enlazar">
+                <i class="fa fa-link" aria-hidden="true"></i> 
+            </button>
+            <button type="button" class="btn btn-default" aria-label="Decenlazar">
+                <i class="fa fa-unlink" aria-hidden="true"></i>           
+            </button>
+            <button type="button" class="btn btn-default" aria-label="Imagen">
+                <i class="fa fa-picture-o" aria-hidden="true"></i>  
+            </button>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" rows="5"></textarea>
+        </div> 
+        <button type="submit" class="btn btn-default">Guardar</button>
+    </form>
+    <ul class="media-list">
+        <li class="media">
+            <div class="media-left">
+                <a href="#"><img class="media-object" src="http://ogcmeet.org/img/speakers/mysteryman-300x300.png" alt="...">Usuario</a>
+            </div>
+            <div class="media-body">
+                
+                <p>Comentario del usuario, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptates velit quos delectus, nobis optio voluptas nisi pariatur perspiciatis dolores. </p>
+                <div class="fecha">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i> 
+                    <span>00-00-0000</span>
+                </div>
+                
+
+                <!--COMENTAR COMENTARIO ARTICULO-->
+                <section id="vista_actividad" class="actividad"></section>
+
+                <!--COMENTARIO DE UN COMENTARO DEL ARTICULO-->
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#"><img class="media-object" src="http://ogcmeet.org/img/speakers/mysteryman-300x300.png" alt="...">Usuario</a>
+                    </div>
+                    <div class="media-body">
+                        <p>Comentario del usuario, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptates velit quos delectus, nobis optio voluptas nisi pariatur perspiciatis dolores. </p>
+                    </div>
+                    <div class="fecha">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i> 
+                        <span>00-00-0000</span>
+                    </div>
+                    <section id="vista_actividad" class="actividad"></section>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+<aside class="col-sm-4">
+    <div class="list-group">
+        <h3>Post relacionados</h3>
+        <button type="button" class="list-group-item">Cras justo odio</button>
+        <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+        <button type="button" class="list-group-item">Morbi leo risus</button>
+        <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+        <button type="button" class="list-group-item">Vestibulum at eros</button>
+    </div>
+</aside>
+</div><!--DIV fondo rojo-->
+

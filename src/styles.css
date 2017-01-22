@@ -1,4 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+
+
+/***************************************************/
+/*GENERICOS ANGULANDO*/
+/***************************************************/
+body{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 60px;
+}
+ul{list-style: none;}
+.background-rojo{
+	background: #e23237;
+	padding-top: 10px;
+}
+aside{}
+header .navbar{
+	background: #e23237;
+	border: 0;
+	box-shadow: 0 0 15px 1px #5a5a5a;
+}
+.navbar-default .navbar-nav>li>a{color:#fff;}
+.btn-group{margin-bottom: 5px;}
+.media-object {
+	border-radius:50%; 
+	height: 60px;
+	width: 60px;
+}
+.media .fecha{
+	text-align: right;
+	width: 100%;
+}
+.media-body p{
+	background: #fff;
+	padding: 5px;
+	width: 100%;
+}
+
 .avatar  {
 	display: inline-block;
 	background-image: url("avatars.jpg");
