@@ -1,0 +1,16 @@
+.cuerpo img{
+    height: auto;
+    width: 100%;
+}
+
+/***************************************************/
+/*COMENTARIOS*/
+/***************************************************/
+
+section.comentarios{
+	background: #e23237;
+}
+
+.form-comentario{
+    margin-bottom: 20px;
+}
