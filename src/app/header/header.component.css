@@ -1,3 +1,23 @@
-header {}
+header {
+  background: #ccc;
+  border: 2px solid #999;
+  padding-top: 10px;
+}
 
+nav {
+  float: left;
+  margin-bottom: 0;
+}
+
+.navOffline, .navUsuario {
+  float: right;
+}
+
+ul {
+  list-style: none;
+}
+
+#logo {
+  font-size:1.5em;
+}
 

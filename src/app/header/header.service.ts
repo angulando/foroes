@@ -13,4 +13,15 @@ export class HeaderService {
 
 		});
 	}
+
+	public getLoguedItems(): Observable<any[]> {
+		return new Observable<any[]>((obs: Observer<any[]>) => {
+			let data: any[] = [];
+
+            data = ['historial', 'logOut'];
+			obs.next(data);
+			obs.complete();
+
+		});	
+	}
 }

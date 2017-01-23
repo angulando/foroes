@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { MomentModule } from 'angular2-moment';
+import { ButtonsModule } from 'ng2-bootstrap/buttons';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -28,6 +29,7 @@ import { AppRoutes } from './app.routes';
   ],
   imports: [
     BrowserModule,
+    ButtonsModule.forRoot(),
     FormsModule,
     HttpModule,
     RouterModule,
