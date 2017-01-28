@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { PostsService } from './posts.service'
 
 @Component({
-  selector: 'app-list-posts',
+  selector: 'list-posts-comp',
   templateUrl: './list-posts.component.html',
   styleUrls: ['./list-posts.component.css']
 })

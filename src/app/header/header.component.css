@@ -1,9 +1,11 @@
-header {
-  background: #ccc;
-  border: 2px solid #999;
-  padding-top: 10px;
+header {}
+.titulo-web img{
+  border-radius:50%; 
+  height: auto;
+  width: 45px;
+  float: left;
+  margin: 2px 5px 0 0;
 }
-
 nav {
   float: left;
   margin-bottom: 0;
@@ -12,12 +14,12 @@ nav {
 .navOffline, .navUsuario {
   float: right;
 }
-
 ul {
   list-style: none;
 }
 
-#logo {
-  font-size:1.5em;
+.navbar-brand {
+    font-size: 27px;
+    color: #92090d;
+    font-weight: bold;
 }
-
