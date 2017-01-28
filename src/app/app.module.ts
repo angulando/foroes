@@ -17,6 +17,7 @@ import { ListPostsComponent } from './list-posts/list-posts.component';
 import { PostsService } from './list-posts/posts.service';
 import { HomeComponent } from './home/home.component';
 import { AppRoutes } from './app.routes';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AppRoutes } from './app.routes';
     MenuComponent,
     PostComponent,
     ListPostsComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
